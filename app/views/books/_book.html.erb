@@ -1,0 +1,14 @@
+<article id="<%= dom_id book %>" class="prose dark:prose-invert p-6 rounded-lg border flex items-start gap-6 bg-white shadow-sm">
+
+  <%= render "votes/vote_button", book: book %>
+
+  <div class="flex-1">
+    <p class="my-0">
+      <%= link_to book.title, book %>
+    </p>
+
+    <p class="my-0">
+      <%= book.description %>
+    </p>
+  </div>
+</article>

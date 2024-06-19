@@ -1,0 +1,12 @@
+<div class="max-w-3xl mx-auto px-4 my-16">
+  <div class="flex items-center justify-between pb-6 border-b dark:border-slate-700 mb-6">
+    <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight">Books</h1>
+    <div class="flex items-center justify-end">
+      <%= link_to "New Book", new_book_path, class: "btn btn-primary" %>
+    </div>
+  </div>
+
+  <div id="books" class="dark:text-slate-700 mb-10 grid md:grid-cols-2 grid-cols-1 gap-3">
+    <%= render @books %>
+  </div>
+</div>
