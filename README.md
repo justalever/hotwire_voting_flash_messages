@@ -1,24 +1,7 @@
-# README
+![Hotwire Flash Messages](https://f001.backblazeb2.com/file/webcrunch/hotwire-flash-messages/hotwire-flash-messages.jpg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hotwire Flash Messsages with Ruby on Rails
 
-Things you may want to cover:
+In this tutorial, we will create a simple voting system for books using Ruby on Rails and Hotwire. Hotwire's unique features will help show more dynamic flash messages when you cast your vote.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Read](https://webcrunch.com/posts/hotwire-flash-messages) or [watch]() the full tutorial.
